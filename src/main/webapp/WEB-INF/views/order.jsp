@@ -513,6 +513,9 @@
 	
 	$(document).ready(function(){
 		
+		let sessionMember = '<%= session.getAttribute("member")%>';
+		console.log(sessionMember);
+		
 		/* 주문 조합정보란 최신화 */
 		setTotalInfo();
 		

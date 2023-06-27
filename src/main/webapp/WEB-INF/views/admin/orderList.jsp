@@ -112,7 +112,7 @@
 		<input type="hidden" name="keyword" value="${pageMaker.cri.keyword}">
 	</form>
 
-	<form id="deleteForm" action="/admin/orderCancle" method="post">
+	<form id="deleteForm" action="/admin/orderCancel" method="post">
 		<input type="hidden" name="orderId"> <input type="hidden"
 			name="pageNum" value="${pageMaker.cri.pageNum}"> <input
 			type="hidden" name="amount" value="${pageMaker.cri.amount}">
